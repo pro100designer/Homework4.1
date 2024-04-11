@@ -40,11 +40,11 @@ public class Main {
 
         System.out.println(" Задача № 5");
         if (age < 5) {
-            System.out.printf("если возраст ребенка равен %s, то он не может кататься на аттракционе\n",age);
-        } else if ( age > 5 && age<14) {
-            System.out.printf("если возраст ребенка равен %s, то он  может кататься на аттракционе только в сопровождении врозлого\n",age);
-        } else if (age >14 ) {
-            System.out.printf("если возраст ребенка равен %s, то он  может кататься на аттракционе без сопровождения врозлого\n",age);
+            System.out.printf("если возраст ребенка равен %s, то он не может кататься на аттракционе\n", age);
+        } else if (age > 5 && age < 14) {
+            System.out.printf("если возраст ребенка равен %s, то он  может кататься на аттракционе только в сопровождении врозлого\n", age);
+        } else if (age > 14) {
+            System.out.printf("если возраст ребенка равен %s, то он  может кататься на аттракционе без сопровождения врозлого\n", age);
 
         }
 
@@ -67,9 +67,9 @@ public class Main {
         int three = 5;
         if (one > two && two > three) {
             System.out.println("Первое число больше всех");
-        } else if (two>one && two> three) {
+        } else if (two > one && two > three) {
             System.out.println("Второе больше всех");
-        } else if (three>one && three>two) {
+        } else if (three > one && three > two) {
             System.out.println("Третье больше всех");
         }
 
